@@ -1,0 +1,1260 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211210171957
+Username: GRIT\ADM_IN
+RunAs User: GRIT\ADM_IN
+Configuration Name: 
+Machine: SVR-MGT01 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 28244
+PSVersion: 5.1.17763.2268
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.2268
+BuildVersion: 10.0.17763.2268
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\SVR-script01\Logs\Reports\log4j-servercheck.log
+SVR-AADC01
+SVR-ADFS01
+SVR-ADFS02
+SVR-ADLIB6PDF
+SVR-AGENDAX
+SVR-BIS01
+SVR-BIS01-T
+Offline
+SVR-BPMONE
+SVR-CA01
+SVR-CA02
+SVR-CADTEST
+C:\apps\FME\2018\win32\plugins\log4j-1.2.16.jar
+C:\apps\FME\2018\win64\plugins\log4j-1.2.16.jar
+C:\apps\FME\2019\win32\plugins\log4j-1.2.16.jar
+C:\apps\FME\2019\win64\plugins\log4j-1.2.16.jar
+C:\Oracle\12.1.0\client\oui\jlib\jlib\log4j-core.jar
+C:\Oracle\12.1.0-x64\client\oui\jlib\jlib\log4j-core.jar
+C:\Program Files\ArcGIS\Data Interoperability for ArcGIS Pro\plugins\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\Pro\java\runtime\spark\jars\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Pro\java\runtime\spark\jars\log4j-1.2.17.jar
+C:\Program Files\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+C:\Program Files\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+C:\Program Files\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+C:\Program Files (x86)\Esri\Data Interoperability (x86)\plugins\log4j-1.2.16.jar
+SVR-CCA01
+SVR-CEN01
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN01-T
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN02
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN02-T
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN03
+D:\Cnt\GeoServer2.9.1\lib\log4j-1.2.17.jar
+D:\Cnt\GeoServer2.9.1\webapps\geoserver\WEB-INF\lib\log4j-1.2.17.jar
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN03-T
+D:\Cnt\GeoServer2.9.1\lib\log4j-1.2.17.jar
+D:\Cnt\GeoServer2.9.1\webapps\geoserver\WEB-INF\lib\log4j-1.2.17.jar
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+SVR-CEN04
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201x86\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201x86\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+SVR-CEN04-T
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201_x86\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201_x86\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+SVR-CEN05
+Offline
+SVR-CEN05-T
+Offline
+SVR-CEN06
+D:\Cognos\analytics\bin\log4j-1.2.17.jar
+D:\Cognos\analytics\bin\log4j-1.3alpha-6.jar
+D:\Cognos\analytics\bin\log4j-api-2.7.jar
+D:\Cognos\analytics\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics\bin\log4j-core-2.7.jar
+D:\Cognos\analytics\bin\log4j-optional.jar
+D:\Cognos\analytics\bin\log4j-oro.jar
+D:\Cognos\analytics\bin\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\bin\log4j-xml.jar
+D:\Cognos\analytics\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\analytics\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics\bin64\log4j-optional.jar
+D:\Cognos\analytics\bin64\log4j-oro.jar
+D:\Cognos\analytics\bin64\log4j-xml.jar
+D:\Cognos\analytics\sdk\java\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_143\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_145\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_146\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_147\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_148\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_151\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_152\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_153\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_154\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_155\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_157\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_162\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_163\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_163\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_163\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_164\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_166\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_168\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-1.2-api-2.11.2.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-web-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_170\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_171\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_172\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_175\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_176\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_17\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_17\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_17\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\bin\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\bin\log4j-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin\log4j-optional.jar
+D:\Cognos\analytics - Copy\bin\log4j-oro.jar
+D:\Cognos\analytics - Copy\bin\log4j-xml.jar
+D:\Cognos\analytics - Copy\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin64\log4j-optional.jar
+D:\Cognos\analytics - Copy\bin64\log4j-oro.jar
+D:\Cognos\analytics - Copy\bin64\log4j-xml.jar
+D:\Cognos\analytics - Copy\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_100\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_101\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_102\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_104\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_108\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_110\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_96\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_98\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\61\data\cache\com.ibm.ws.app.manager_22\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\c11\bin\log4j-1.2.17.jar
+D:\Cognos\c11\bin\log4j-1.3alpha-6.jar
+D:\Cognos\c11\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\c11\bin\log4j-optional.jar
+D:\Cognos\c11\bin\log4j-oro.jar
+D:\Cognos\c11\bin\log4j-xml.jar
+D:\Cognos\c11\tomcat\lib\log4j-1.2.17.jar
+D:\Cognos\c11\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\dqa\bin\log4j-1.2.17.jar
+D:\Cognos\dqa\bin\log4j-1.3alpha-6.jar
+D:\Cognos\dqa\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\dqa\bin\log4j-optional.jar
+D:\Cognos\dqa\bin\log4j-oro.jar
+D:\Cognos\dqa\bin\log4j-xml.jar
+D:\Cognos\dqa\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\dqa\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\dqa\bin64\log4j-optional.jar
+D:\Cognos\dqa\bin64\log4j-oro.jar
+D:\Cognos\dqa\bin64\log4j-xml.jar
+D:\Cognos\dqa\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\fm\bin\log4j-1.2.17.jar
+D:\Cognos\fm\bin\log4j-1.3alpha-6.jar
+D:\Cognos\fm\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\fm\bin\log4j-optional.jar
+D:\Cognos\fm\bin\log4j-oro.jar
+D:\Cognos\fm\bin\log4j-xml.jar
+D:\Cognos\fm\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\fm\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\fm\bin64\log4j-optional.jar
+D:\Cognos\fm\bin64\log4j-oro.jar
+D:\Cognos\fm\bin64\log4j-xml.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-1.2-api-2.13.2.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-1.2.17.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-api-2.13.2.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-core-2.13.2.jar
+D:\Cognos\fm\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201-32bit\oui\jlib\jlib\log4j-core.jar
+SVR-CEN06-T
+D:\Cognos\analytics\bin\log4j-1.2.17.jar
+D:\Cognos\analytics\bin\log4j-1.3alpha-6.jar
+D:\Cognos\analytics\bin\log4j-api-2.7.jar
+D:\Cognos\analytics\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics\bin\log4j-core-2.7.jar
+D:\Cognos\analytics\bin\log4j-optional.jar
+D:\Cognos\analytics\bin\log4j-oro.jar
+D:\Cognos\analytics\bin\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\bin\log4j-xml.jar
+D:\Cognos\analytics\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\analytics\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics\bin64\log4j-optional.jar
+D:\Cognos\analytics\bin64\log4j-oro.jar
+D:\Cognos\analytics\bin64\log4j-xml.jar
+D:\Cognos\analytics\sdk\java\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\102\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_169\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_171\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_172\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_174\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_175\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_176\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_177\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_178\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_179\.cache\WEB-INF\lib\log4j-1.2-api-2.11.2.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_179\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_179\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_179\.cache\WEB-INF\lib\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_179\.cache\WEB-INF\lib\log4j-web-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_181\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_182\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_186\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_187\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_190\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_192\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_193\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_194\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_195\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_196\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_197\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_199\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_200\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_200\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\54\data\cache\com.ibm.ws.app.manager_200\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_26\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_26\.cache\WEB-INF\lib\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\59\data\cache\com.ibm.ws.app.manager_26\.cache\WEB-INF\lib\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\89\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\bin\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\bin\log4j-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin\log4j-optional.jar
+D:\Cognos\analytics - Copy\bin\log4j-oro.jar
+D:\Cognos\analytics - Copy\bin\log4j-xml.jar
+D:\Cognos\analytics - Copy\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\analytics - Copy\bin64\log4j-optional.jar
+D:\Cognos\analytics - Copy\bin64\log4j-oro.jar
+D:\Cognos\analytics - Copy\bin64\log4j-xml.jar
+D:\Cognos\analytics - Copy\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\112\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_83\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_84\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_86\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_90\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_92\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_93\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_95\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\cognosserver\workarea\org.eclipse.osgi\63\data\cache\com.ibm.ws.app.manager_98\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-api-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-core-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-slf4j-impl-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\101\0\.cp\log4j-web-2.7.jar
+D:\Cognos\analytics - Copy\wlp\usr\servers\dataset-service\workarea\org.eclipse.osgi\61\data\cache\com.ibm.ws.app.manager_28\.cache\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\c11\bin\log4j-1.2.17.jar
+D:\Cognos\c11\bin\log4j-1.3alpha-6.jar
+D:\Cognos\c11\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\c11\bin\log4j-optional.jar
+D:\Cognos\c11\bin\log4j-oro.jar
+D:\Cognos\c11\bin\log4j-xml.jar
+D:\Cognos\c11\tomcat\lib\log4j-1.2.17.jar
+D:\Cognos\c11\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\dqa\bin\log4j-1.2.17.jar
+D:\Cognos\dqa\bin\log4j-1.3alpha-6.jar
+D:\Cognos\dqa\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\dqa\bin\log4j-optional.jar
+D:\Cognos\dqa\bin\log4j-oro.jar
+D:\Cognos\dqa\bin\log4j-xml.jar
+D:\Cognos\dqa\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\dqa\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\dqa\bin64\log4j-optional.jar
+D:\Cognos\dqa\bin64\log4j-oro.jar
+D:\Cognos\dqa\bin64\log4j-xml.jar
+D:\Cognos\dqa\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Cognos\fm\bin\log4j-1.2.17.jar
+D:\Cognos\fm\bin\log4j-1.3alpha-6.jar
+D:\Cognos\fm\bin\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\fm\bin\log4j-optional.jar
+D:\Cognos\fm\bin\log4j-oro.jar
+D:\Cognos\fm\bin\log4j-xml.jar
+D:\Cognos\fm\bin64\log4j-1.3alpha-6.jar
+D:\Cognos\fm\bin64\log4j-chainsaw-1.3alpha-6.jar
+D:\Cognos\fm\bin64\log4j-optional.jar
+D:\Cognos\fm\bin64\log4j-oro.jar
+D:\Cognos\fm\bin64\log4j-xml.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-1.2-api-2.13.2.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-1.2.17.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-api-2.13.2.jar
+D:\Cognos\fm\Meta Integration\java\axis2\log4j-core-2.13.2.jar
+D:\Cognos\fm\webapps\p2pd\WEB-INF\lib\log4j-1.2.17.jar
+D:\Oracle\OraClient12201\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\OraClient12201-32bit\oui\jlib\jlib\log4j-core.jar
+SVR-CEN07
+D:\Cnt\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+D:\Cnt\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+D:\Cnt\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+D:\oracle\fmw122140\.patch_storage\32253037_Dec_9_2020_15_56_07\files\oracle.log4j.log4j\2.11.1.0.0\thirdparty.symbol\modules\thirdparty\log4j-2.11.1.jar
+D:\oracle\fmw122140\.patch_storage\32253037_Dec_9_2020_15_56_07\files\oracle.wls.admin.console.en\12.2.1.4.0\wls.server.symbol\server\lib\consoleapp\APP-INF\lib\log4j-1.2.17-16.jar
+D:\oracle\fmw122140\oracle_common\modules\thirdparty\log4j-2.11.1.jar
+D:\oracle\fmw122140\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+D:\oracle\fmw122140\wlserver\server\lib\consoleapp\APP-INF\lib\log4j-1.2.17-16.jar
+SVR-CEN07-T
+D:\oracle\fmw122140\.patch_storage\32253037_Dec_9_2020_15_56_07\files\oracle.log4j.log4j\2.11.1.0.0\thirdparty.symbol\modules\thirdparty\log4j-2.11.1.jar
+D:\oracle\fmw122140\.patch_storage\32253037_Dec_9_2020_15_56_07\files\oracle.wls.admin.console.en\12.2.1.4.0\wls.server.symbol\server\lib\consoleapp\APP-INF\lib\log4j-1.2.17-16.jar
+D:\oracle\fmw122140\oracle_common\modules\thirdparty\log4j-2.11.1.jar
+D:\oracle\fmw122140\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+D:\oracle\fmw122140\wlserver\server\lib\consoleapp\APP-INF\lib\log4j-1.2.17-16.jar
+D:\oracle\patches\33059296\files\oracle.log4j.log4j\2.11.1.0.0\thirdparty.symbol\modules\thirdparty\log4j-2.11.1.jar
+D:\oracle\patches\33059296\files\oracle.wls.admin.console.en\12.2.1.4.0\wls.server.symbol\server\lib\consoleapp\APP-INF\lib\log4j-1.2.17-16.jar
+SVR-CEN08
+SVR-CEN08-T
+SVR-CEN09
+D:\Oracle\Ora12201-32bit\oui\jlib\jlib\log4j-core.jar
+SVR-CEN09-T
+D:\Oracle\Ora12201-32bit\oui\jlib\jlib\log4j-core.jar
+SVR-CIV01
+D:\Oracle\CL\product\12.2.0\client_1\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\CL\product\12.2.0\client_1\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\lib\log4j-over-slf4j-1.7.25.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-druid-controller-service-api-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2-api-2.5.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-druid-controller-service-api-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-api-2.5.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-druid-controller-service-api-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-core-2.5.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-druid-controller-service-api-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-jul-2.5.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-druid-controller-service-api-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-slf4j-impl-2.5.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-5-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-api-2.8.2.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-5-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-core-2.8.2.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-client-service-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-api-2.9.1.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-client-service-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-core-2.9.1.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-restapi-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-api-2.8.2.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-elasticsearch-restapi-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-core-2.8.2.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-hadoop-libraries-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.17.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-hbase_1_1_2-client-service-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.17.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-hbase_2-client-service-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.17.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-hive-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\apache-log4j-extras-1.2.17.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-hive-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.16.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-kafka-0-8-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.16.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-kite-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\apache-log4j-extras-1.2.17.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-kite-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.16.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\extensions\nifi-snmp-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.9.jar
+D:\PR0\NIFI\nifi-1.9.1-bin\nifi-1.9.1\work\nar\framework\nifi-framework-nar-1.9.1.nar-unpacked\NAR-INF\bundled-dependencies\log4j-1.2.17.jar
+D:\PR0\Software\NIFI_26072021\nifi-1.9.1-bin\nifi-1.9.1\lib\log4j-over-slf4j-1.7.25.jar
+SVR-CIV01-T
+D:\Oracle\CL\product\12.2.0\client_1\oui\jlib\jlib\log4j-core.jar
+D:\Oracle\CL\product\12.2.0\client_1\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+SVR-CLUSQL01
+SVR-COR01
+D:\bct\3party\progress\openedge\rest\lib\log4j-1.2.16.jar
+D:\bct\serversoftware\progress\hotfix\rest\lib\log4j-1.2.16.jar
+SVR-COR01-T
+D:\bct\3party\progress\openedge\rest\lib\log4j-1.2.16.jar
+D:\bct\serversoftware\progress\hotfix\rest\lib\log4j-1.2.16.jar
+D:\bct\tds\corsa\openedge\rest\lib\log4j-1.2.16.jar
+SVR-COR02
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> $computernames
+PS C:\Windows\system32> \\SVR-script01\Scripts\File_mgmt\find_log4j-2.ps1
+Transcript started, output file is \\'SVR-script01\Logs\Reports\log4j-servercheck_pt2.log
+SVR-COR02
+PS C:\Windows\system32> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Windows\system32> \\SVR-script01\Scripts\File_mgmt\find_log4j-2.ps1
+Transcript started, output file is \\SVR-script01\Logs\Reports\log4j-servercheck_pt2.log
+SVR-COR02
+D:\bct\tds\corsa\openedge\rest\lib\log4j-1.2.16.jar
+SVR-CTXPVS01
+SVR-CTXVADL01
+SVR-CTXVADM01
+SVR-CTXVADS01
+SVR-CTXWEM01
+SVR-DB07
+Offline
+SVR-DB09
+Offline
+SVR-DC01
+SVR-DC02
+SVR-DDC01
+SVR-DDC02
+SVR-EXC01
+SVR-FAS01
+SVR-FAS02
+SVR-GIS01
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-1.2-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-1.2-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-core-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\tomcat\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#sharing\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2.12.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\zookeeper\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-jcl.jar
+C:\Program Files\Latitude Geographics\Geocortex Core\NSRoot\Geocortex\Core\Roles\DocumentStore\3.1.7.669\elasticsearch-2.4.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\Latitude Geographics\Geocortex Core\NSRoot\Geocortex\Core\Roles\DocumentStore\3.1.7.669\elasticsearch-2.4.2\lib\log4j-1.2.17.jar
+SVR-GIS02
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-1.2-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-1.2-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-core-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\tomcat\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#sharing\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2.12.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\zookeeper\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-jcl.jar
+SVR-GIS03
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-1.2-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-core-2.11.1.jar
+C:\FME\plugins\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-1.2-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-core-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\tomcat\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#sharing\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2.12.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\zookeeper\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-jcl.jar
+C:\Program Files\Latitude Geographics\Geocortex Core\NSRoot\Geocortex\Core\Roles\DocumentStore\3.1.7.669\elasticsearch-2.4.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\Latitude Geographics\Geocortex Core\NSRoot\Geocortex\Core\Roles\DocumentStore\3.1.7.669\elasticsearch-2.4.2\lib\log4j-1.2.17.jar
+SVR-GIS04
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-1.2-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-api-2.11.1.jar
+C:\arcgis\arcgisportal\dsdata\elasticsearch_6.4.2\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\DataStore\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_2.3.2\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-1.2-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-api-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\runtime\elasticsearch_5.5.0\lib\log4j-core-2.8.2.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\DataStore\framework\webapps\arcgis#datastoreadmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\ds\framework\runtime\elasticsearch\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\runtime\tomcat\lib\log4j-1.2.16.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\ignite-log4j-2.7.0.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#portaladmin\WEB-INF\lib\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Portal\framework\webapps\arcgis#sharing\WEB-INF\lib\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-1.2.12.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-api-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-core-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\lib\shared\log4j-jcl-2.11.1.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\apache-log4j-extras-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\spark\jars\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\framework\runtime\zookeeper\lib\log4j-1.2.17.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\configurebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\createsite\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradebasedeployment\lib\log4j-jcl.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-api.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-core.jar
+C:\Program Files\ArcGIS\Server\tools\upgradeserver\lib\log4j-jcl.jar
+SVR-GIS05
+SVR-GKS01
+SVR-HW01
+SVR-JCCAUTHBM
+SVR-JCCAUTHHM
+SVR-JCCGKASBM
+SVR-JCCGKASHM
+SVR-JCCRCBMD
+SVR-JCCRCHMS
+SVR-JCCSYNBMD
+SVR-JCCSYNHMS
+SVR-KFX01
+SVR-KFX02
+C:\Oracle\12.1.0\client\oui\jlib\jlib\log4j-core.jar
+SVR-KOFAXDB
+SVR-LIA01
+SVR-LIC01
+SVR-LIC02
+Offline
+SVR-LOC01
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+SVR-MDT01
+D:\MDT\Applications\Oracle Client 11.2.0.4\deinstall\sysman\jlib\log4j-core.jar
+SVR-MGT01
+SVR-MGT02
+SVR-MGT03
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+SVR-MGT04
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\lib\log4j-1.2-api.jar
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\lib\log4j-api.jar
+C:\Program Files\sqldeveloper-20.2\sqldeveloper\lib\log4j-core.jar
+SVR-MKS01
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-22a1cf78ce37060d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-3d66f3c80c2dc320\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-3fb8ca46ee85fd1f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-432519203fcdc3dc\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-476e697d4e8f611c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-4fb770356a66383e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-507b3f8d1cd8adc3\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-5417eb54f723bce5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-643f79cf85940ccb\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-6c48105023d4372c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-6e7f640b9602c8f6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-6fffd8ee1c25109e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-73bdd04fe6dbd00c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-7719b91084df5109\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-7fe07d435ddbabff\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-80870724834a9a11\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-8a1cd43ffa158bf8\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-8c1c9c2201a85ba8\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-938fae8351112c23\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-96dcff36afd67416\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-a17cc9920827081b\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-aa9e1157b0b46a37\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-ad27c568ad09b1c0\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-b13b7d7fdaac7807\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-b5358117c757775d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-b847c5d2fd55d3b5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-b96b99b1000220cb\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-bef5395df64c91c5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-c2adae963f9d45f2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-c5eb13bed79bb147\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-c8b4cf29d499f1d3\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-c905225d81803f70\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-ca1e2a1f94bf71dc\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-ceb583b31c4a7927\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-f8f71bd21b8078bd\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-fb4c83e80248fe18\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment6fe9572b0438998\log4j-1.2.16.jar-fcd16d7f14218b80\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\wildfly19.0.0\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.2.0.Final.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BrkInitial\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\as400\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\oracle\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\SAP\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\dp_tools\CommonJobs\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\dp_tools\insertRolesAndPermissions\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\dp_tools\NHR\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\dp_tools\NHR_BG310\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\dp_tools\updatePersonsAdresses_2.0\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\Alg\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\AlgCPAExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\AlgCPAImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\Beheer\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\BrkInitial\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\BRKMutations\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\CommonJobs\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\CreateDia2utf8\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\Fraude\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\FraudeSLZExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\FraudeSLZImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\GeometryTables\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\Kwaliteit\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\KwaliteitCPAExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\KwaliteitCPAImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\LDFJobResults\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\ldf\deployments\NAO\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\src\server\server-configuration\assets\talend\as400\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs - Copy\src\server\server-configuration\assets\talend\oracle\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\Sociaal-Domein\JeugdEnWMO\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\Sociaal-Domein\JeugdEnWMO\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\Sociaal-Domein\WerkEnInkomen\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\iNzicht\ldf\Sociaal-Domein\WerkEnInkomen\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\FilterData\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\NHR\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\BrkInitial\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-1.2-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-api-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-core-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-slf4j-impl-2.12.1.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\as400\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\oracle\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\SAP\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks01-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks01-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\mks01-nodejs\iNzicht\ldf\iRapportage\lib\log4j-1.2.17.jar
+SVR-MKS01-T
+D:\backupmks30\MKS00\JBossEAP6416\modules\system\layers\base\.overlays\layer-base-jboss-eap-6.4.16.CP\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.2.Final-redhat-1.jar
+D:\backupmks30\MKS00\JBossEAP6416\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-framework-web-3.0.17.war-e3f4f2adef270071\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-abap-3.0.17.war-f978fde82447b356\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-bg0310-3.0.17.war-f6a4981a020cc464\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-dso-3.0.17.war-356dc1a5a5e3d786\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-easypark-3.0.17.war-71daa5e8b36bbf89\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-ebms-3.0.17.war-60fb5508d2c14728\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-ef0310-3.0.17.war-8d620a8279c67f6b\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-ef0311-3.0.17.war-a0df8c7592336940\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-ef0312-3.0.17.war-1891415b190c14fc\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-generic-3.0.17.war-89c024962264516d\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-http-3.0.17.war-72dcdbac6f8d632f\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-lvo0305-3.0.17.war-8ad5407e4e4155e2\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-lvo0311-3.0.17.war-a734fe3d078de76f\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-nhr0310-3.0.17.war-c847d05b2490658e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-stuf0204-3.0.17.war-1d181f5c08497f3e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-stuf0302-3.0.17.war-1f13b3cb757c4b71\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-uniface-3.0.17.war-f70438cea106a9b2\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-woz0312-3.0.17.war-d42cf1ac7f5d8f09\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-ws-3.0.17.war-de9db0c4ed5f767\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-adapterin-zkn0310-3.0.17.war-114517604f334ea3\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cgs-services-web-3.0.17.war-f18fef3ee8f09b99\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cir-web-3.0.17.war-894b983d0825bb47\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cmg-autotest-web-3.0.17.war-1f5b36e39d92763e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cmg-help-beheerder-3.0.17.war-244161ab091fa83c\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cmg-help-gebruiker-3.0.17.war-7c71f43a4b7fc620\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cmg-onderhoud-web-3.0.17.war-b236425e434878f5\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cmg-web-3.0.17.war-67c8c04a768416c9\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cml-web-3.0.17.war-44cd8a847fcdad11\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\cms-web-3.0.17.war-1ea118c748ba0ab1\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-2020588c083a528c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-21c73ca54413d107\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-23ac9d15691d842f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-2765acc5663c31e4\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-331063fcad21c5f2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-34108484287d1d94\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-359c6dc1df4107f0\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-35ec4091801a6641\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-36cd7f210fd0f6c0\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-43420bc0859d9b62\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-4b2e0a25cb7b6864\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-4c0565b541f7e845\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-59f5c41b43f102d7\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-5a535c8e94563e21\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-5c78cc0e4d69ddb6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-5e60a41902dc8e5d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-67de7bfdd5dbafa7\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-6e63133d39c16d93\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-6ecdc44042230e2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-7009b78c97762930\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-7631185118451cde\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-78829db66c734c3b\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-9fda38f5f3be7a6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-a9bc6eedc622cd94\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-b79a566d0d107cf6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-b94ddb987dd9d897\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-c02f4d8e439d3aff\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-c354fc4bae0ef3f9\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-c63c4cc69378aa6c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-d42c4bc8ca847f6a\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-d44ab6f857f61f74\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-db10b33389073ee2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-dbc0829298184090\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-dd6b671c6261baf5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-df9216b04e52d3b5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-e10fff84469739be\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\log4j-1.2.16.jar-ed00538aa6fa5a55\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5807f3e50cca4dbf\platform-services-web-3.0.17.war-e36105f6d24afa53\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\wildfly19.0.0\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.2.0.Final.jar
+D:\MakelaarSuite\MKS00 - Copy\JBossEAP6416\modules\system\layers\base\.overlays\layer-base-jboss-eap-6.4.16.CP\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.2.Final-redhat-1.jar
+D:\MakelaarSuite\MKS00 - Copy\JBossEAP6416\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\CommonJobs\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\insertRolesAndPermissions\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\NHR_BG310\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\dp_tools\updatePersonsAdresses_2.0\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Alg\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\AlgCPAImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Beheer\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BrkInitial\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\BRKMutations\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\CommonJobs\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\CreateDia2utf8\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Fraude\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\FraudeSLZImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\GeometryTables\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAExp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\KwaliteitCPAImp\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\LDFJobResults\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\ldf\deployments\NAO\lib\log4j-1.2.15.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\as400\lib\log4j-1.2.17.jar
+D:\MakelaarSuite\mks00-nodejs\CirCooNodejs\src\server\server-configuration\assets\talend\oracle\lib\log4j-1.2.17.jar
+SVR-MKS02
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-framework-web-3.0.17.war-f649b287fdf0e947\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-abap-3.0.17.war-a2b7f611a1507a8b\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-bg0310-3.0.17.war-47befccb0a6fbaaf\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-dso-3.0.17.war-f4d09d904136211\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-easypark-3.0.17.war-358cf9925ea37849\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-ebms-3.0.17.war-ea29e64824c930b1\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-ef0310-3.0.17.war-4c61932830d7760d\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-ef0311-3.0.17.war-ebab5eb8a1084cac\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-ef0312-3.0.17.war-c310e4aeb5ba5fef\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-generic-3.0.17.war-5aa2521bb69ddce8\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-http-3.0.17.war-6953748c9e55aee2\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-lvo0305-3.0.17.war-4521f42ce35848bf\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-lvo0311-3.0.17.war-be50aed4f8b81bdc\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-nhr0310-3.0.17.war-6652f2db5f3627b6\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-stuf0204-3.0.17.war-2bb97a2c538ba892\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-stuf0302-3.0.17.war-da99cbe2e9949b19\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-uniface-3.0.17.war-4e81fd24c72a420a\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-woz0312-3.0.17.war-7b3db68eabdad49e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-ws-3.0.17.war-fc0af92ecbdf4ef1\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-adapterin-zkn0310-3.0.17.war-d1c44238a6058f43\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cgs-services-web-3.0.17.war-3453d083d366d009\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cir-web-3.0.17.war-94123c2b3b3eaca8\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cmg-autotest-web-3.0.17.war-f6da863eaa8aa185\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cmg-help-beheerder-3.0.17.war-6ac0d9176aa74db2\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cmg-help-gebruiker-3.0.17.war-88b167171332df0e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cmg-onderhoud-web-3.0.17.war-2ed0e3253313ff15\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cmg-web-3.0.17.war-9af7a7d4b99b1779\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cml-web-3.0.17.war-532c3f1674ecce8c\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\cms-web-3.0.17.war-d5fba837db5612a2\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-16ea6cfff3e61a2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-181357b10ce4c0eb\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-2096c14ee63f1ad6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-25e8e4a4c6667424\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-27c502a79a1603f2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-31d3b61d360f4122\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-3499a6803051c4b6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-45f8c283f38dad3e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-4bb49e3a81bc4e2c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-4f1c39b000ffa641\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-50590cb806bc1e26\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-61b6a9dbcb91afde\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-7405ba9bf699fdb7\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-774ced84f179b66\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-80a03eccde20e30f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-81142a66d4f7c129\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-86cfab35882e1744\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-92cd5fb90501921a\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-9911bf1e7603bc7a\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-9965608929f6f364\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-a6381031343878ce\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-bd26020466111b2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-bd5fd956bd8dbdfd\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-bdd1ea8ea92d822\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-c48f78fe6c40b8e9\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-c65daa9a6173d4bc\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-c71c429ee4247b68\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-c8f102575bfa7988\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-cc69faf73a90e47f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-d143b84af56b0c2d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-d2c19804afdab6ce\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-d6a9e833f40526c4\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-d71568c47a41fd4e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-dc50c15e1c6477e7\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-e58676e7526bd0da\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-f03a24537d1422e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\log4j-1.2.16.jar-f5d77dc420b309c6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deploymentc49c3d9387de51fe\platform-services-web-3.0.17.war-e69c87dc41099a4e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\wildfly19.0.0\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.2.0.Final.jar
+SVR-MKS02-T
+D:\backupmks30\MKS00\JBossEAP6416\modules\system\layers\base\.overlays\layer-base-jboss-eap-6.4.16.CP\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.2.Final-redhat-1.jar
+D:\backupmks30\MKS00\JBossEAP6416\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.1.1.Final-redhat-1.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-framework-web-3.0.17.war-521ef1c1f428cec3\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-abap-3.0.17.war-a267c03d5302384d\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-bg0310-3.0.17.war-a7975dee029dda6e\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-dso-3.0.17.war-212972e56cade024\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-easypark-3.0.17.war-5dc40242a2b33f42\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-ebms-3.0.17.war-c9980804b84b3de5\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-ef0310-3.0.17.war-5c35f4bec99e4259\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-ef0311-3.0.17.war-adf09fddd066caca\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-ef0312-3.0.17.war-3e49aecde4eb15f7\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-generic-3.0.17.war-7fa5139add1d18fd\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-http-3.0.17.war-fbaa27b8b1993c26\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-lvo0305-3.0.17.war-d29a59350285f83a\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-lvo0311-3.0.17.war-15980c7128ab6c33\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-nhr0310-3.0.17.war-81a4bf0108756e9\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-stuf0204-3.0.17.war-42bb4fabf95c81f1\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-stuf0302-3.0.17.war-1f4a92608cc5c6ab\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-uniface-3.0.17.war-f1588a6ea274043a\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-woz0312-3.0.17.war-fe65815fb00067d7\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-ws-3.0.17.war-815fb47a853eb32b\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-adapterin-zkn0310-3.0.17.war-adf04bad0dbc69fd\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cgs-services-web-3.0.17.war-14c5404c47424251\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cir-web-3.0.17.war-8fcd54d5512a4855\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cmg-autotest-web-3.0.17.war-352af2d37279c063\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cmg-help-beheerder-3.0.17.war-b4f13bf3ecf0e2b1\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cmg-help-gebruiker-3.0.17.war-eaf94b106c6686fe\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cmg-onderhoud-web-3.0.17.war-570809036c4ebcbe\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cmg-web-3.0.17.war-d7cd1d5ec2b1e43c\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cml-web-3.0.17.war-d5087d254ae3a7b0\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\cms-web-3.0.17.war-23933a12ef697c8c\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-16acc5c950732acb\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-173d72bc617d58a1\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-1b0c841eb6e3ccce\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-1e89fbca9e9d2d61\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-2085ddc4110d5c15\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-29c5f125ba47d83c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-29e16a3fab72823d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-2b2aea2f4933886f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-2e1c8c3e9a4e524c\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-3a306c476c0e3e4a\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-665f3476ed3ef9ca\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-6edc7e2d2a42e645\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-7448d2fa22b0952a\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-7a64fa637e71425e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-804c5386e69db80f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-80a79cbe28db0308\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-80f9965046c4eaa5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-873cfeed53c5dba9\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-898abd2688ccb1e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-90dc838c8747bcf9\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-93aedf980c87eb2f\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-ab8db6ba8333d7d9\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-ac4d4a7a1ae31cd2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-ae667a2f144752df\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-c300e811c16ce08d\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-c591911762d3dbdb\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-cc3c7f3ed1c734c1\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-cd1169c69a4c04c2\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-d2dd0b15af4ab6f5\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-df6ae4437567bad\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-e5285ac963b40716\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-e83cd13ab877ae85\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-e8d002a22b273d19\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-e9d37c23075ce0e6\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-fa89e34cfbe2a32e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-fc3f2ea63d89c19e\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\log4j-1.2.16.jar-ff413bf5a84eec22\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\MKS\tmp\vfs\deployment\deployment5fc015efb0d911a8\platform-services-web-3.0.17.war-e68e8d9268219567\WEB-INF\lib\log4j-1.2.16.jar
+D:\MakelaarSuite\MKS00\wildfly19.0.0\modules\system\layers\base\org\jboss\log4j\logmanager\main\log4j-jboss-logmanager-1.2.0.Final.jar
+SVR-MOZ03
+SVR-NEU01
+D:\Vicrea\Tools\FME2018112\plugins\log4j-1.2.16.jar
+D:\Vicrea\Tools\FME2021\plugins\log4j-api-2.13.3.jar
+D:\Vicrea\Tools\FME2021\plugins\log4j-core-2.13.3.jar
+D:\Vicrea\Tools\FME2021\plugins\log4j-jcl-2.13.3.jar
+D:\Vicrea\Tools\FME2021\plugins\log4j-slf4j-impl-2.13.3.jar
+D:\Vicrea\_Install\sqldeveloper\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+SVR-NEU02
+D:\Vicrea\Tools\FME2018112\plugins\log4j-1.2.16.jar
+D:\Vicrea\Tools\FME202101\plugins\log4j-api-2.13.3.jar
+D:\Vicrea\Tools\FME202101\plugins\log4j-core-2.13.3.jar
+D:\Vicrea\Tools\FME202101\plugins\log4j-jcl-2.13.3.jar
+D:\Vicrea\Tools\FME202101\plugins\log4j-slf4j-impl-2.13.3.jar
+D:\Vicrea\Tools\Sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+D:\Vicrea\_Install\sqldeveloper\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+SVR-NPS01
+SVR-NPS02
+SVR-OCC01
+SVR-OCM01
+Offline
+SVR-OCM02
+Offline
+SVR-OPROG
+SVR-ORABCK01
+[SVR-ORABCK01] Connecting to remote server SVR-ORABCK01 failed with the following error message : WinRM cannot compl
+ete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network, a
+nd that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinR
+M firewall exception for public profiles limits access to remote computers within the same local subnet. For more inform
+ation, see the about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (SVR-ORABCK01:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : WinRMOperationTimeout,PSSessionStateBroken
+[SVR-ORABCK01] Connecting to remote server SVR-ORABCK01 failed with the following error message : WinRM cannot comp
+lete the operation. Verify that the specified computer name is valid, that the computer is accessible over the network,
+ and that a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the W
+inRM firewall exception for public profiles limits access to remote computers within the same local subnet. For more in
+formation, see the about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (SVR-ORABCK01:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : WinRMOperationTimeout,PSSessionStateBroken
+SVR-ORABCK02
+SVR-PRT01
+SVR-PRT02
+D:\Program Files\PaperCut MF\client\linux\lib\log4j-1.2.17.jar
+D:\Program Files\PaperCut MF\client\linux\lib\log4j-api-2.13.3.jar
+D:\Program Files\PaperCut MF\client\linux\lib\log4j-core-2.13.3.jar
+D:\Program Files\PaperCut MF\client\linux\lib\log4j-slf4j-impl-2.13.3.jar
+D:\Program Files\PaperCut MF\client\mac\legacy\PCClient.app\Contents\Resources\Java\log4j-1.2.13.jar
+D:\Program Files\PaperCut MF\client\mac\PCClient.app\Contents\Java\log4j-1.2.17.jar
+D:\Program Files\PaperCut MF\client\mac\PCClient.app\Contents\Java\log4j-api-2.13.3.jar
+D:\Program Files\PaperCut MF\client\mac\PCClient.app\Contents\Java\log4j-core-2.13.3.jar
+D:\Program Files\PaperCut MF\client\mac\PCClient.app\Contents\Java\log4j-slf4j-impl-2.13.3.jar
+D:\Program Files\PaperCut MF\client\win\lib\log4j-1.2.17.jar
+D:\Program Files\PaperCut MF\client\win\lib\log4j-api-2.13.3.jar
+D:\Program Files\PaperCut MF\client\win\lib\log4j-core-2.13.3.jar
+D:\Program Files\PaperCut MF\client\win\lib\log4j-slf4j-impl-2.13.3.jar
+D:\Program Files\PaperCut MF\providers\hardware\ricoh\remote-operation-client\lib\log4j-1.2.17.jar
+D:\Program Files\PaperCut MF\providers\hardware\ricoh\sdkj\403046912\log4j-1.2.13.jar
+D:\Program Files\PaperCut MF\providers\hardware\ricoh\sdkj\deprecated\403046656\log4j-1.2.13.jar
+D:\Program Files\PaperCut MF\release\lib\log4j-api-2.13.3.jar
+D:\Program Files\PaperCut MF\release\lib\log4j-core-2.13.3.jar
+D:\Program Files\PaperCut MF\release\lib\log4j-slf4j-impl-2.13.3.jar
+D:\Program Files\PaperCut MF\server\lib\log4j-api-2.13.3.jar
+D:\Program Files\PaperCut MF\server\lib\log4j-core-2.13.3.jar
+D:\Program Files\PaperCut MF\server\lib\log4j-liquibase-2.13.3.jar
+D:\Program Files\PaperCut MF\server\lib\log4j-slf4j-impl-2.13.3.jar
+SVR-PRTG01
+SVR-PVS03
+SVR-PVS04
+SVR-QMGW01
+SVR-REPL01
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+D:\Deployment\SQL Developer\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+SVR-SAPAP01
+Offline
+SVR-SAPMGT01
+SVR-SCRIPT01
+SVR-SDB01
+[SVR-SDB01] Connecting to remote server SVR-SDB01 failed with the following error message : WinRM cannot complete th
+e operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and tha
+t a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM fire
+wall exception for public profiles limits access to remote computers within the same local subnet. For more information,
+ see the about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (SVR-SDB01:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : WinRMOperationTimeout,PSSessionStateBroken
+[SVR-SDB01] Connecting to remote server SVR-SDB01 failed with the following error message : WinRM cannot complete t
+he operation. Verify that the specified computer name is valid, that the computer is accessible over the network, and t
+hat a firewall exception for the WinRM service is enabled and allows access from this computer. By default, the WinRM f
+irewall exception for public profiles limits access to remote computers within the same local subnet. For more informat
+ion, see the about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (SVR-SDB01:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : WinRMOperationTimeout,PSSessionStateBroken
+SVR-SDDB
+SVR-SF02
+SVR-SF03
+SVR-SMD01
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-api-2.14.0.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-over-slf4j-1.7.30.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-to-slf4j-2.14.0.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\sdapi\WEB-INF\lib\log4j-1.2.17.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\smartcontrol\WEB-INF\lib\log4j-1.2.17.jar
+D:\sddata\elasticsearch\lib\log4j-api-2.11.1.jar
+D:\sddata\elasticsearch\lib\log4j-core-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-core\log4j-1.2-api-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-identity-provider\log4j-slf4j-impl-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-security\log4j-slf4j-impl-2.11.1.jar
+D:\SmartDocuments install\@ Release 2020 Q1 (2.20.00.00)\dependencies\lib\smartdocuments\log4j-1.2.16.jar
+SVR-SMD01-T
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-api-2.14.0.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-over-slf4j-1.7.30.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\smartdocuments\log4j-to-slf4j-2.14.0.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\sdapi\WEB-INF\lib\log4j-1.2.17.jar
+D:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\smartcontrol\WEB-INF\lib\log4j-1.2.17.jar
+D:\sddata\elasticsearch\lib\log4j-api-2.11.1.jar
+D:\sddata\elasticsearch\lib\log4j-core-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-core\log4j-1.2-api-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-identity-provider\log4j-slf4j-impl-2.11.1.jar
+D:\sddata\elasticsearch\modules\x-pack-security\log4j-slf4j-impl-2.11.1.jar
+D:\SmartDocuments install\@ Release 2020 Q1 (2.20.00.00)\dependencies\lib\smartdocuments\log4j-1.2.16.jar
+SVR-SQL01
+SVR-SQL02
+SVR-TDI01
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\instance-CCMRuntime-5.1\webapps\itpi_core_01\WEB-INF\lib\log4j-1.2.17.jar
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\instance-CCMRuntime-5.1\webapps\onl_core_01\WEB-INF\lib\log4j-1.2.17.jar
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\instance-CCMRuntime-5.1\webapps-LogServices\LogServer\WEB-INF\lib\log4j-1.2.17.jar
+C:\Program Files\Apache Software Foundation\Tomcat 8.5\instance-WebDesigner-5.1\webapps\ccm_designer_01\WEB-INF\lib\log4j-1.2.17.jar
+D:\CCM\Programs\5.1\Contract Manager\webapps\ccm\WEB-INF\lib\log4j-1.2.17.jar
+D:\CCM\Programs\5.1\Management\Software\ITP MDK Web Repository\WEB-INF\lib\log4j-1.2.17.jar
+D:\CCM\Programs\5.1\Management\Software\ITP Online\war\WEB-INF\lib\log4j-1.2.17.jar
+D:\CCM\Programs\5.1\Management\Software\ITPi\war\WEB-INF\lib\log4j-1.2.17.jar
+D:\InstallServer\Software\Contract Manager\itpservercloud\WEB-INF\lib\log4j-1.2.17.jar
+D:\InstallServer\Software\ITP MDK Web Repository\WEB-INF\lib\log4j-1.2.17.jar
+D:\InstallServer\Software\ITP Online\war\WEB-INF\lib\log4j-1.2.17.jar
+D:\InstallServer\Software\ITPi\war\WEB-INF\lib\log4j-1.2.17.jar
+D:\InstallServer\Software\LogServer\LogServer\WEB-INF\lib\log4j-1.2.17.jar
+SVR-TEST002
+SVR-TOP01
+Offline
+SVR-TOP01-A
+Offline
+SVR-VER01
+SVR-VER02
+C:\app\client\admin_glorier\product\12.1.0\client_1\oui\jlib\jlib\log4j-core.jar
+C:\app\client\admin_glorier\product\12.1.0\client_1\sqldeveloper\sqldeveloper\lib\log4j-1.2.13.jar
+C:\Oracle\OraClient12201-32bit\oui\jlib\jlib\log4j-core.jar
+C:\Oracle\OraClient12201-32bit\sqldeveloper\sqldeveloper\lib\log4j-1.2-api.jar
+C:\Oracle\OraClient12201-32bit\sqldeveloper\sqldeveloper\lib\log4j-api.jar
+C:\Oracle\OraClient12201-32bit\sqldeveloper\sqldeveloper\lib\log4j-core.jar
+SVR-WEM01
+SVR-WEM02
+SVR-WSUS01
+Transcript stopped, output file is \\SVR-script01\Logs\Reports\log4j-servercheck_pt2.log
