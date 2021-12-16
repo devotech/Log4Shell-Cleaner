@@ -4,10 +4,10 @@
 # Changes from first version to V2:
 # - Default behaviour is changed to NOT remove the backup file if it exists. Instead it skips the patch file.
 # This will prevent the original backed-up file from being lost forever. 
-# - Remove leading dots from file extension parameters (if any)# Renames each patch file in folder to file. Create a backup file of file. 
-# If backup file already exists, delete it first unless SkipPatchFileIfPreviousBackupFileExists
+# - Remove leading dots from file extension parameters (if any)
 Function ReplaceJarFileWithPatchFile
 {
+    [cmdletbinding()]
     Param
     (
         $Folder,              # Ex. \\server\folder\subfolder, or c:\folder\subfolder
@@ -127,8 +127,6 @@ Function ReplaceJarFileWithPatchFile
         }
     }
 }
-
-## Script by anonymous collaborator - OGD ICT Diensten
 
 <#
 Example:
