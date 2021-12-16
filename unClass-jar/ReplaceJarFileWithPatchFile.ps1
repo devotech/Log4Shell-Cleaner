@@ -4,7 +4,8 @@
 # Changes from first version to V2:
 # - Default behaviour is changed to NOT remove the backup file if it exists. Instead it skips the patch file.
 # This will prevent the original backed-up file from being lost forever. 
-# - Remove leading dots from file extension parameters (if any)
+# - Remove leading dots from file extension parameters (if any)# Renames each patch file in folder to file. Create a backup file of file. 
+# If backup file already exists, delete it first unless SkipPatchFileIfPreviousBackupFileExists
 Function ReplaceJarFileWithPatchFile
 {
     Param
@@ -14,8 +15,7 @@ Function ReplaceJarFileWithPatchFile
         $PatchFileExtension,  # Ex. jar.patch (no leading dot)
         $BackupFileExtension, # Ex. jar.bak (no leading dot)        
         $FileStartsWith,      # Ex. log4j- (no wildcards, the function adds wildcards)
-        [switch]$SkipPatchFileIfPreviousBackupFileExists, # If this is set, do not delete a previously made backup file and skip the rename action for the current patch file V2: this is the default action now
-        [siwtch]$ReplacePreviousBackupFile, # Override default behaviour
+        [switch]$SkipPatchFileIfPreviousBackupFileExists, # If this is set, do not delete a previously made backup file and skip the rename action for the current patch file
         [switch]$Verbose,     # Show verbose logging
         [switch]$Recurse,     # Also search all subfolders of folder
         [switch]$Debug        # Pretend to rename files, but don't rename of delete anything
@@ -40,11 +40,6 @@ Function ReplaceJarFileWithPatchFile
         Write-Verbose "Number of patch files found in folder: $nrPatchFiles"
     }
 
-    # Remove leading dot from extension, if any
-    $FileExtension = $FileExtension.TrimStart('.')
-    $PatchFileExtension = $PatchFileExtension.TrimStart('.')
-    $BackupFileExtension = $BackupFileExtension.TrimStart('.')
-
     # Rename file to backupfile, rename patch file to file
     foreach ($patchFile in $patchFilesFound)
     {
@@ -68,7 +63,13 @@ Function ReplaceJarFileWithPatchFile
             # Delete the backup file (or not) if it exists
             if ($matchingBackupFile)
             {
-                if ($ReplacePreviousBackupFile)
+                if ($SkipPatchFileIfPreviousBackupFileExists)
+                {
+                    Write-Verbose "Backup file of matching file found: $matchingBackupFile"
+                    Write-Output "Backup file $matchingBackupFile already exists, but skipping the rename action for this patch file because of parameter SkipPatchFileIfPreviousBackupFileExists"
+                    Continue # Go to next loop iteration, because this patch file is skipped
+                }
+                else
                 {
                     if (!$Debug)
                     {
@@ -80,12 +81,7 @@ Function ReplaceJarFileWithPatchFile
                     {
                         Write-Output "Debug: Previous backup file would have been deleted"
                     }
-                }
-                else
-                {
-                    Write-Verbose "Backup file of matching file found: $matchingBackupFile"
-                    Write-Output "Backup file $matchingBackupFile already exists, skipping this patch file (override possible with -ReplacePreviousBackupFile)"
-                    Continue # Go to next loop iteration, because this patch file is skipped
+
                 }
             }
             else
@@ -105,7 +101,8 @@ Function ReplaceJarFileWithPatchFile
             $patchFileName = $patchFile.Name
 
             if (!$Debug)
-            {                        
+            {
+                        
                 # Rename file to backup file
                 Rename-Item -Path $originalFileNameFullPath -NewName $newBackupFileName
                 Write-Output "Renamed $originalFileNameFullPath to $newBackupFileName"
@@ -119,6 +116,7 @@ Function ReplaceJarFileWithPatchFile
                 Write-Output "Debug: Would have renamed $originalFileNameFullPath to $newBackupFileName"
                 Write-Output "Debug: Would have renamed $patchFileNameFullPath to $originalFileName"
             }
+
         }
         else
         {
@@ -126,6 +124,8 @@ Function ReplaceJarFileWithPatchFile
         }
     }
 }
+
+## Script by anonymous collaborator - OGD ICT Diensten
 
 <#
 Example:
