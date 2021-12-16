@@ -15,7 +15,8 @@ Function ReplaceJarFileWithPatchFile
         $PatchFileExtension,  # Ex. jar.patch (no leading dot)
         $BackupFileExtension, # Ex. jar.bak (no leading dot)        
         $FileStartsWith,      # Ex. log4j- (no wildcards, the function adds wildcards)
-        [switch]$SkipPatchFileIfPreviousBackupFileExists, # If this is set, do not delete a previously made backup file and skip the rename action for the current patch file
+        [switch]$SkipPatchFileIfPreviousBackupFileExists, # If this is set, do not delete a previously made backup file and skip the rename action for the current patch file V2: this is the default action now
+        [switch]$ReplacePreviousBackupFile, # Override default behaviour
         [switch]$Verbose,     # Show verbose logging
         [switch]$Recurse,     # Also search all subfolders of folder
         [switch]$Debug        # Pretend to rename files, but don't rename of delete anything
@@ -40,6 +41,11 @@ Function ReplaceJarFileWithPatchFile
         Write-Verbose "Number of patch files found in folder: $nrPatchFiles"
     }
 
+    # Remove leading dot from extension, if any
+    $FileExtension = $FileExtension.TrimStart('.')
+    $PatchFileExtension = $PatchFileExtension.TrimStart('.')
+    $BackupFileExtension = $BackupFileExtension.TrimStart('.')
+
     # Rename file to backupfile, rename patch file to file
     foreach ($patchFile in $patchFilesFound)
     {
@@ -63,13 +69,7 @@ Function ReplaceJarFileWithPatchFile
             # Delete the backup file (or not) if it exists
             if ($matchingBackupFile)
             {
-                if ($SkipPatchFileIfPreviousBackupFileExists)
-                {
-                    Write-Verbose "Backup file of matching file found: $matchingBackupFile"
-                    Write-Output "Backup file $matchingBackupFile already exists, but skipping the rename action for this patch file because of parameter SkipPatchFileIfPreviousBackupFileExists"
-                    Continue # Go to next loop iteration, because this patch file is skipped
-                }
-                else
+                if ($ReplacePreviousBackupFile)
                 {
                     if (!$Debug)
                     {
@@ -81,7 +81,12 @@ Function ReplaceJarFileWithPatchFile
                     {
                         Write-Output "Debug: Previous backup file would have been deleted"
                     }
-
+                }
+                else
+                {
+                    Write-Verbose "Backup file of matching file found: $matchingBackupFile"
+                    Write-Output "Backup file $matchingBackupFile already exists, skipping this patch file (override possible with -ReplacePreviousBackupFile)"
+                    Continue # Go to next loop iteration, because this patch file is skipped
                 }
             }
             else
@@ -101,8 +106,7 @@ Function ReplaceJarFileWithPatchFile
             $patchFileName = $patchFile.Name
 
             if (!$Debug)
-            {
-                        
+            {                        
                 # Rename file to backup file
                 Rename-Item -Path $originalFileNameFullPath -NewName $newBackupFileName
                 Write-Output "Renamed $originalFileNameFullPath to $newBackupFileName"
@@ -116,7 +120,6 @@ Function ReplaceJarFileWithPatchFile
                 Write-Output "Debug: Would have renamed $originalFileNameFullPath to $newBackupFileName"
                 Write-Output "Debug: Would have renamed $patchFileNameFullPath to $originalFileName"
             }
-
         }
         else
         {
