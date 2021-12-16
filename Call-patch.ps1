@@ -2,7 +2,7 @@ $server = Read-Host "Enter current server name"
 $files = @()
 $files = (Get-Content -Path ".\source\$server.log")
 
-if!(Test-path Logs){mkdir Logs}
+if(-not(Test-path Logs)){mkdir Logs}
 
 Start-Transcript -Path ".\Logs\$server-patch.log"
 
