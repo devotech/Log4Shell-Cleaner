@@ -18,8 +18,8 @@ Function ReplaceJarFileWithPatchFile
         [switch]$SkipPatchFileIfPreviousBackupFileExists, # If this is set, do not delete a previously made backup file and skip the rename action for the current patch file V2: this is the default action now
         [switch]$ReplacePreviousBackupFile, # Override default behaviour
     #    [switch]$Verbose,     # Show verbose logging
-        [switch]$Recurse,     # Also search all subfolders of folder
-        [switch]$Debug        # Pretend to rename files, but don't rename of delete anything
+        [switch]$Recurse     # Also search all subfolders of folder
+    #    [switch]$Debug        # Pretend to rename files, but don't rename of delete anything
     )
 
     if ($Verbose)
