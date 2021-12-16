@@ -6,7 +6,7 @@ $backupFileExtension = 'jar.bak'
 $fileStartsWith = 'log4j-core'
 
 Start-Transcript -Path ".\Logs\$Server-replace.log"
-if(-not(Get-Module ReplaceJarFileWithPatchFile)){Import-Module .\unClass-jar\ReplaceJarFileWithPatchFile.psm}
+if(-not(Get-Module ReplaceJarFileWithPatchFile)){Import-Module .\unClass-jar\ReplaceJarFileWithPatchFile.psm1}
 ReplaceJarFileWithPatchFile -Folder $folder -FileExtension $fileExtension -PatchFileExtension $patchFileExtension -BackupFileExtension $backupFileExtension -FileStartsWith $fileStartsWith -Verbose -Recurse
 Stop-Transcript
 
