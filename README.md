@@ -21,7 +21,7 @@ This requires (temporarily) stopping services, run this outside of office hours 
     - see [example](./example) for log output and checklist you need to create
 * Create separate logfiles per server you wish to patch. -give this the name of the server. This is used to ingest logfiles and transcribe actions.
   - Ex: SVR-CADTEST.log if the server is called SVR-CADTEST.
-* edit the [call-patch.ps1](.\call-patch.ps1) script to include the executable
+* edit the [call-patch.ps1](./call-patch.ps1) script to include the executable
 * Download the latest release of the scanner tool: [releases](https://github.com/dtact/divd-2021-00038--log4j-scanner/releases) and select the relevant build.
 
 ## Usage
